@@ -1,6 +1,6 @@
 all: compile run
 compile:
-	gcc -o target/output src/main.c src/chunk.c  src/memory.c src/debug.c src/value.c
+	gcc -o target/output src/*.c
 run:
 	./target/output
 clear:
