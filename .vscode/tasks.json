@@ -6,7 +6,11 @@
     {
       "label": "make-dev",
       "type": "shell",
-      "command": "make dev"
+      "command": "make dev",
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ]
     }
   ]
 }
